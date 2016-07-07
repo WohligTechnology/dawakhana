@@ -31,11 +31,12 @@ body{
 }
 header{
   position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   background-color: #fff;
+  border-bottom: 2px solid #e5e5e5;
 }
 .center{
   text-align: center;
@@ -87,7 +88,9 @@ header h1{
 .headings h2{
   font-size: 34px;
 }
-
+input[type="checkbox"]{
+  cursor: pointer;
+}
 .details{
   background-color: #7c7c7c;
     padding: 10px 0;
@@ -146,7 +149,7 @@ header h1{
 }
 address{
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 footer h3{
@@ -157,13 +160,14 @@ footer p{
   margin-top: 10px;
 }
 select{
-  position: absolute;
+position: absolute;
 right: 0;
 top: 0;
 border-left: 2px solid #ccc;
 background-color: transparent;
 width: 140px;
 height: 100%;
+cursor: pointer;
 }
 select:focus{
   outline: 0;
@@ -183,6 +187,7 @@ select:focus{
   background-color: transparent;
   width: 290px;
   height: 100%;
+  cursor: pointer;
 }
 
 .form-handle{
@@ -230,10 +235,12 @@ font-family: "Roboto";
   font-family: "Roboto";
   font-size: 24px;
 }
-.buy,.good-things{
+.buy{
   padding: 25px 0;
 }
-
+.good-things{
+  padding: 25px 45px;
+}
 
 
 .item a{
