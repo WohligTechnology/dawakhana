@@ -45,6 +45,9 @@ and (max-device-width : 1024px){
 .good-things{
   padding: 25px 0;
 }
+.social-icons{
+  margin-right: 10px;
+}
 }
 
 
@@ -107,6 +110,9 @@ address{
 }
 .details{
   margin: 0;
+}
+.social-icons{
+  margin-right: 15px;
 }
 }
 @media (max-width:350px) {
@@ -188,6 +194,10 @@ footer p{
 }
 .details{
   margin: 0;
+}
+.social-icons{
+  margin-top: 30px;
+  margin-right: 10px;
 }
 
 }
