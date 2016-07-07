@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/*@import "../font-awesome/css/font-awesome.min.css";
+@import "../bootstrap-sass/assets/stylesheets/bootstrap";*/
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Robolight";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboblack";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboitalic";
+    src: url("../fonts/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Robo";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body{
+  font-family: "Robo";
+  font-size: 14px;
+}
+header{
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  background-color: #fff;
+}
+.center{
+  text-align: center;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.socio{
+  height: 30px;
+  width: 30px;
+  background-color: #3c5897;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.fa{
+  color: #fff;
+}
+.socios{
+  height: 30px;
+  width: 30px;
+  background-color: #007bb7;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 100%;
+  display: inline-block;
+}
+header h1{
+  display: inline-block;
+}
+.social-icons{
+  margin-top: 45px;
+}
+.health-insurance h2{
+  color: #06bbfe;
+  font-family: "Roboto";
+}
+.headings{
+  margin: 30px 0;
+}
+.headings h4{
+    font-size: 20px;
+}
+.headings h2{
+  font-size: 34px;
+}
+
+.details{
+  background-color: #7c7c7c;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+.details h3{
+    color: #fff;
+}
+.form-detail{
+  padding: 0 20px;
+}
+
+.checkbox label{
+  color: #fff;
+}
+.border{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.borders{
+    border-bottom: 1px solid #e5e5e5;
+    background-image: linear-gradient(to right, white 43%,#e5e5e5 43%);
+}
+.btn span{
+  color: #fff;
+  font-family: "Roboto";
+}
+.form-group>.btn{
+  width: 100%;
+  background-color: #f67a20;
+  border:transparent;
+    outline: 0;
+    font-size: 20px;
+}
+.btn:focus{
+  outline: 0;
+  background-color: #f67a20 ;
+  border:transparent;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+  background-color: #f67a20;
+  outline: 0;
+  border:transparent;
+}
+.health-insurance{
+      margin-top: 90px;
+}
+.health-insurance p{
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 15px;
+}
+address{
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+footer h3{
+    font-family: "Roboblack";
+    font-size: 22px;
+}
+footer p{
+  margin-top: 10px;
+}
+select{
+  position: absolute;
+right: 0;
+top: 0;
+border-left: 2px solid #ccc;
+background-color: transparent;
+width: 140px;
+height: 100%;
+}
+select:focus{
+  outline: 0;
+}
+
+.form-handles{
+  position: relative;
+}
+.form-control,.btn{
+  border-radius: 0;
+}
+.form-handles>select{
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border-left: 2px solid #ccc;
+  background-color: transparent;
+  width: 290px;
+  height: 100%;
+}
+
+.form-handle{
+position: relative;
+}
+.bordering{
+  background-color: #f67a20;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.bordering a{
+  color: #fff;
+}
+.carousel-indicators {
+    bottom: -25px;
+}
+.carousel-control.left,.carousel-control.right{
+  background-image: none;
+}
+.carousel{
+  color: #fff;
+}
+.lists li{
+  list-style-image: url("../images/arrow-orange.png");
+  padding: 25px 0;
+  font-size: 20px;
+  font-family: "Robolight";
+}
+.listing li{
+  list-style-image: url("../images/checked-mark.png");
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Robolight";
+}
+.listing,.lists{
+  padding: 0 20px;
+}
+.buy h2{
+color: #f67a20;
+font-size: 24px;
+font-family: "Roboto";
+}
+.good-things h2{
+  color: #06bbfe;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.buy,.good-things{
+  padding: 25px 0;
+}
+
+
+
+.item a{
+    font-family: "Roboitalic";
+    font-size: 15px;
+}
+
+.item p{
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: "Robolight";
+  letter-spacing: 4px;
+}
+
+/*.input-group{
+  position: relative;
+}
+  .input-group:after{
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    margin-top: -3px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid;
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    color: #999;
+    content: "";
+    pointer-events: none;
+    z-index: 999999;
+  }*/

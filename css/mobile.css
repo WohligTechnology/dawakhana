@@ -1,0 +1,175 @@
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+  .border {
+    background-position: 100% 100%;
+}
+  .borders{
+      border-bottom: 1px solid #ccc;
+      background-image: none;
+  }
+  .headings h2{
+    font-size: 30px;
+  }
+  .headings h4 {
+    font-size: 20px;
+}
+.buy h2 {
+    font-size: 22px;
+  }
+
+  .listing li {
+      font-size: 18px;
+    }
+    .good-things h2 {
+        font-size: 22px;
+    }
+
+    .lists li {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    .bordering {
+        padding: 15px 0;
+    }
+
+    footer h3 {
+    font-size: 20px;
+}
+
+.details {
+    margin: 20px 0;
+}
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .border {
+    background-position: 100% 100%;
+}
+  .borders{
+      border-bottom: 1px solid #ccc;
+      background-image: none;
+  }
+  .headings h2 {
+      font-size: 26px;
+  }
+  .headings h4 {
+      font-size: 14px;
+  }
+  .health-insurance p {
+      text-align: justify;
+      font-size: 12px;
+      margin-top: 10px;
+  }
+  .buy h2 {
+      font-size: 20px;
+    }
+    .listing li {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .good-things h2 {
+      font-size: 20px;
+  }
+  .lists li {
+      padding: 10px 0;
+      font-size: 14px;
+  }
+  .bordering {
+      padding: 15px 0;
+  }
+.item h2{
+  font-size: 22px;
+}
+.item a {
+    font-size: 12px;
+}
+.item p {
+    padding: 20px 0;
+    font-size: 12px;
+}
+footer h3 {
+    font-size: 18px;
+}
+address{
+  font-size: 11px;
+}
+
+}
+@media (max-width:350px) {
+  .border {
+    background-position: 100% 100%;
+}
+  .pull-right{
+    float: none!important;
+  }
+  .social-icons{
+    text-align: center;
+    margin-top: 0;
+  }
+  .borders{
+      border-bottom: 1px solid #ccc;
+      background-image: none;
+  }
+  .headings h2 {
+    font-size: 18px;
+}
+.headings h4 {
+    font-size: 12px;
+}
+.health-insurance p {
+    text-align: justify;
+    font-size: 10px;
+    margin-top: 0;
+}
+.details h3{
+  font-size: 16px;
+}
+.form-control {
+    height: 25px;
+  }
+  select {
+      width: 110px;
+      font-size: 12px;
+  }
+.checkbox label{
+  font-size: 10px;
+}
+.buy h2 {
+    font-size: 14px;
+}
+.listing li {
+    padding: 3px 0;
+    font-size: 10px;
+}
+.good-things h2 {
+    font-size: 14px;
+}
+.lists li {
+    padding: 5px 0;
+    font-size: 10px;
+}
+.bordering {
+    padding: 10px 0;
+}
+.item h2 {
+    font-size: 16px;
+}
+.item p {
+    padding: 15px 0;
+    font-size: 8px;
+}
+footer h3 {
+    font-size: 12px;
+}
+address {
+    font-size: 8px;
+}
+footer p{
+  font-size: 12px;
+}
+}
