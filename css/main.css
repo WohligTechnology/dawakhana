@@ -165,7 +165,7 @@ right: 0;
 top: 0;
 border-left: 2px solid #ccc;
 background-color: transparent;
-width: 140px;
+width: auto;
 height: 100%;
 cursor: pointer;
 }
@@ -185,7 +185,7 @@ select:focus{
   top: 0px;
   border-left: 2px solid #ccc;
   background-color: transparent;
-  width: 290px;
+  width: auto;
   height: 100%;
   cursor: pointer;
 }
