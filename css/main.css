@@ -1,34 +1,25 @@
 @charset "UTF-8";
-/*@import "../font-awesome/css/font-awesome.min.css";
-@import "../bootstrap-sass/assets/stylesheets/bootstrap";*/
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-    font-family: "Robolight";
-    src: url("../fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-    font-family: "Roboblack";
-    src: url("../fonts/Roboto-Black.ttf");
-}
-
-@font-face {
-    font-family: "Roboitalic";
-    src: url("../fonts/Roboto-LightItalic.ttf");
-}
-
-@font-face {
-    font-family: "Robo";
-    src: url("../fonts/Roboto-Regular.ttf");
-}
 
 body{
-  font-family: "Robo";
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+
+h2{
+  font-weight: 700;
+}
+h3{
+  font-weight: 500;
+}
+h4{
+  font-weight: 400;
+}
+
+.fi{
+  font-style: italic;
+  font-weight: 300;
+}
+
 header{
   position: fixed;
   top: 0;
@@ -38,15 +29,16 @@ header{
   background-color: #fff;
   border-bottom: 2px solid #e5e5e5;
 }
-.center{
-  text-align: center;
+header a{
+  display: inline-block;
+  margin-top: 10px;
 }
-.uppercase{
-  text-transform: uppercase;
-}
-.capitalize{
-  text-transform: capitalize;
-}
+.center{ text-align: center; }
+
+.uppercase{ text-transform: uppercase; }
+
+.capitalize{ text-transform: capitalize; }
+
 .socio{
   height: 30px;
   width: 30px;
@@ -57,9 +49,8 @@ header{
   display: inline-block;
   margin-right: 10px;
 }
-.fa{
-  color: #fff;
-}
+.fa{ color: #fff; }
+
 .socios{
   height: 30px;
   width: 30px;
@@ -69,43 +60,30 @@ header{
   border-radius: 100%;
   display: inline-block;
 }
-header h1{
-  display: inline-block;
-}
-.social-icons{
-  margin-top: 45px;
-}
-.health-insurance h2{
-  color: #06bbfe;
-  font-family: "Roboto";
-}
-.headings{
-  margin: 30px 0;
-}
-.headings h4{
-    font-size: 20px;
-}
-.headings h2{
-  font-size: 34px;
-}
+
+.social-icons{ margin: 30px 0 10px 0;}
+
+.health-insurance h2{color: #06bbfe; }
+
+.headings{ margin: 30px 0; }
+
+.headings h4{ font-size: 20px; }
+
+.headings h2{ font-size: 34px;}
+
 input[type="checkbox"]{
   cursor: pointer;
 }
 .details{
   background-color: #7c7c7c;
-    padding: 10px 0;
-    margin: 0 20px;
+  padding: 10px 0;
 }
-.details h3{
-    color: #fff;
-}
-.form-detail{
-  padding: 0 20px;
-}
+.details h3{ color: #fff; }
 
-.checkbox label{
-  color: #fff;
-}
+.form-detail{ padding: 0 20px; }
+
+.checkbox label{ color: #fff; }
+
 .border{
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -115,8 +93,8 @@ input[type="checkbox"]{
   background-position:center;
 }
 .borders{
-    border-bottom: 1px solid #e5e5e5;
-    background-image: linear-gradient(to right, white 43%,#e5e5e5 43%);
+  border-bottom: 1px solid #e5e5e5;
+  background-image: linear-gradient(to right, white 50%,#e5e5e5 50%);
 }
 .btn span{
   color: #fff;
@@ -126,8 +104,8 @@ input[type="checkbox"]{
   width: 100%;
   background-color: #f67a20;
   border:transparent;
-    outline: 0;
-    font-size: 20px;
+  outline: 0;
+  font-size: 20px;
 }
 .btn:focus{
   outline: 0;
@@ -139,9 +117,8 @@ input[type="checkbox"]{
   outline: 0;
   border:transparent;
 }
-.health-insurance{
-      margin-top: 90px;
-}
+.health-insurance{ margin-top: 90px; }
+
 .health-insurance p{
   text-align: justify;
   font-size: 16px;
@@ -151,14 +128,16 @@ address{
   margin: 0;
   letter-spacing: 1px;
 }
+footer{ padding: 30px 0 10px 0; }
 
 footer h3{
-    font-family: "Roboblack";
-    font-size: 22px;
+  font-size: 22px;
+  margin: 0 0 2px 0;
+  padding: 0;
 }
-footer p{
-  margin-top: 10px;
-}
+
+footer p{ margin-top: 10px; }
+
 select{
 position: absolute;
 right: 0;
@@ -169,16 +148,20 @@ width: auto;
 height: 100%;
 cursor: pointer;
 }
-select:focus{
-  outline: 0;
-}
+select:focus{ outline: 0; }
 
-.form-handles{
-  position: relative;
-}
+.form-handles{ position: relative; }
+
 .form-control,.btn{
   border-radius: 0;
+  box-shadow: none;
+ }
+
+.form-control:focus{
+  box-shadow: none;
+  border: transparent;
 }
+
 .form-handles>select{
   position: absolute;
   right: 0;
@@ -190,69 +173,61 @@ select:focus{
   cursor: pointer;
 }
 
-.form-handle{
-position: relative;
-}
+.form-handle{ position: relative;}
+
 .bordering{
   background-color: #f67a20;
   padding: 20px 0;
   border-bottom: 1px solid #e5e5e5;
 }
-.bordering a{
-  color: #fff;
-}
-.carousel-indicators {
-    bottom: -25px;
-}
-.carousel-control.left,.carousel-control.right{
-  background-image: none;
-}
-.carousel{
-  color: #fff;
-}
+.bordering a{ color: #fff;}
+
+.carousel-indicators { bottom: -25px; }
+
+.carousel-control.left,.carousel-control.right{ background-image: none; }
+
+.carousel{ color: #fff;}
+
 .lists li{
   list-style-image: url("../images/arrow-orange.png");
-  padding: 25px 0;
+  padding: 20px 0;
   font-size: 20px;
-  font-family: "Robolight";
 }
 .listing li{
   list-style-image: url("../images/checked-mark.png");
   padding: 10px 0;
   font-size: 20px;
-  font-family: "Robolight";
 }
-.listing,.lists{
-  padding: 0 20px;
-}
+.listing,.lists{ padding: 0 20px;}
+
 .buy h2{
 color: #f67a20;
 font-size: 24px;
-font-family: "Roboto";
 }
+
 .good-things h2{
   color: #06bbfe;
-  font-family: "Roboto";
   font-size: 24px;
+  margin-bottom: 0;
 }
-.buy{
-  padding: 25px 0;
-}
-.good-things{
-  padding: 25px 45px;
-}
+
+.buy{ padding: 25px 0;}
+
+.good-things{ padding: 25px 45px; }
 
 
 .item a{
-    font-family: "Roboitalic";
-    font-size: 15px;
+  text-decoration: none;
+  font-size: 15px;
 }
+.item h2{ margin-top: 0; }
+
 
 .item p{
-  padding: 20px 0;
+  padding: 30px 0 15px 0;
   font-size: 20px;
-  font-family: "Robolight";
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 /*.input-group{
