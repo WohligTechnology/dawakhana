@@ -18,7 +18,9 @@ and (max-device-width : 1024px){
 .buy h2 {
     font-size: 22px;
   }
-
+  .good-things {
+      padding: 0 0 25px 0;
+  }
   .listing li {
       font-size: 18px;
     }
@@ -42,12 +44,14 @@ and (max-device-width : 1024px){
     margin: 20px 0;
 }
 
-.good-things{
-  padding: 25px 0;
-}
 .social-icons{
   margin-right: 10px;
 }
+.buy {
+    padding: 25px 0 0 0;
+}
+
+
 }
 
 
@@ -80,10 +84,16 @@ and (max-device-width : 1024px){
         padding: 5px 0;
         font-size: 14px;
     }
+    .buy {
+        padding: 25px 0 0 0;
+    }
 
     .good-things h2 {
       font-size: 20px;
   }
+  .good-things {
+    padding: 0 0 25px 0;
+}
   .lists li {
       padding: 5px 0;
       font-size: 14px;
@@ -108,14 +118,16 @@ address{
   font-size: 10px;
   letter-spacing: normal;
 }
-.good-things{
-  padding:  0;
-}
+
 .details{
   margin: 0;
 }
 .social-icons{
   margin-right: 15px;
+}
+.logo{
+    height: auto;
+    width: 250px;
 }
 }
 @media (max-width:350px) {
@@ -125,14 +137,20 @@ address{
   .border {
     background-position: 100% 100%;
 }
-  header a{
+.good-things {
+    padding: 0 0 25px 0;
+}
+  /*.logo{
     width: 150px;
     display: inline-block;
-  }
-  .social-icons{
-    margin-top: 30px;
-    margin-right: 10px;
-  }
+  }*/
+  .logo {
+    height: auto;
+    width: 151px;
+}
+  .social-icons {
+    margin: 30px 0 10px 0;
+}
   .borders{
       border-bottom: 1px solid #ccc;
       background-image: none;
@@ -195,9 +213,7 @@ address {
 footer p{
   font-size: 12px;
 }
-.good-things{
-  padding:  0;
-}
+
 .details{
   margin: 0;
 }
@@ -207,5 +223,8 @@ footer p{
 }
 .carousel-indicators {
     bottom: -20px;
+}
+.buy {
+    padding: 25px 0 0 0;
 }
 }
