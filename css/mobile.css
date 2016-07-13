@@ -22,6 +22,7 @@ and (max-device-width : 1024px){
       padding: 0 0 25px 0;
   }
   .listing li {
+    height: 60px;
       font-size: 18px;
     }
     .good-things h2 {
@@ -29,7 +30,7 @@ and (max-device-width : 1024px){
     }
 
     .lists li {
-        padding: 10px 0;
+      height: 60px;
         font-size: 18px;
     }
     .bordering {
@@ -79,9 +80,10 @@ and (max-device-width : 1024px){
   }
   .buy h2 {
       font-size: 20px;
+      height: 30px;
     }
     .listing li {
-        padding: 5px 0;
+          height: 50px;
         font-size: 14px;
     }
     .buy {
@@ -90,12 +92,13 @@ and (max-device-width : 1024px){
 
     .good-things h2 {
       font-size: 20px;
+      height: 30px;
   }
   .good-things {
     padding: 0 0 25px 0;
 }
   .lists li {
-      padding: 5px 0;
+    height: 50px;
       font-size: 14px;
   }
   .bordering {
@@ -181,16 +184,18 @@ address{
 }
 .buy h2 {
     font-size: 14px;
+    height: 20px;
 }
 .listing li {
-    padding: 3px 0;
+  height: 40px;
     font-size: 10px;
 }
 .good-things h2 {
     font-size: 14px;
+    height: 20px;
 }
 .lists li {
-    padding: 5px 0;
+    height: 40px;
     font-size: 10px;
 }
 .bordering {

@@ -20,6 +20,14 @@ h4{
   font-weight: 300;
 }
 
+.blue{
+    color: #06bbfe;
+}
+
+.orange{
+  color:#f67a20;
+}
+
 .block{
   display: block;
 }
@@ -195,24 +203,38 @@ select:focus{ outline: 0; }
 
 .lists li{
   list-style-image: url("../images/arrow-orange.png");
-  padding: 20px 0;
+  height: 76px;
+  /*padding: 20px 0;*/
   font-size: 20px;
 }
 .listing li{
   list-style-image: url("../images/checked-mark.png");
-  padding: 10px 0;
+  /*padding: 10px 0;*/
+  height: 76px;
   font-size: 20px;
 }
+
+/*.list{
+  list-style-image: url("../images/arrow-orange.png");
+  font-size: 20px;
+}
+.listing{
+  list-style-image: url("../images/checked-mark.png");
+  font-size: 20px;
+}*/
+
+
 .listing,.lists{ padding: 0 20px;}
 
 .buy h2{
 color: #f67a20;
 font-size: 24px;
+height: 40px;
 }
 
 .good-things h2{
-  color: #06bbfe;
   font-size: 24px;
+  height: 40px;
 }
 
 .buy{ padding: 25px 0;}
