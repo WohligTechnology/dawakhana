@@ -132,6 +132,17 @@ address{
     height: auto;
     width: 250px;
 }
+
+.carousel h2{
+  font-size: 18px;
+}
+
+.carousel a{
+  font-size: 14px;
+}
+
+
+
 }
 @media (max-width:350px) {
   .health-insurance{
@@ -228,6 +239,13 @@ footer p{
 }
 .carousel-indicators {
     bottom: -20px;
+}
+.carousel h2{
+  font-size: 16px;
+}
+
+.carousel a{
+  font-size: 12px;
 }
 .buy {
     padding: 25px 0 0 0;
