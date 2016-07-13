@@ -20,6 +20,11 @@ h4{
   font-weight: 300;
 }
 
+.block{
+  display: block;
+}
+
+
 header{
   position: fixed;
   top: 0;
